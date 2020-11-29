@@ -1,0 +1,691 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2006/vcard/ns#Individual" ],
+  "http://www.w3.org/2006/vcard/ns#family-name" : [ {
+    "@value" : "Bonduel"
+  } ],
+  "http://www.w3.org/2006/vcard/ns#fn" : [ {
+    "@value" : "Mathias Bonduel"
+  } ],
+  "http://www.w3.org/2006/vcard/ns#given-name" : [ {
+    "@value" : "Mathias"
+  } ],
+  "http://www.w3.org/2006/vcard/ns#hasOrganizationName" : [ {
+    "@id" : "_:genid2"
+  } ],
+  "http://www.w3.org/2006/vcard/ns#hasURL" : [ {
+    "@id" : "https://orcid.org/0000-0002-3313-924X"
+  }, {
+    "@id" : "https://www.kuleuven.be/wieiswie/nl/person/00110827"
+  }, {
+    "@id" : "https://www.researchgate.net/profile/Mathias_Bonduel"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2006/vcard/ns#Organization" ],
+  "http://www.w3.org/2006/vcard/ns#hasURL" : [ {
+    "@id" : "https://www.kuleuven.be"
+  } ],
+  "http://www.w3.org/2006/vcard/ns#organization-name" : [ {
+    "@value" : "KU Leuven"
+  } ]
+}, {
+  "@id" : "_:genid3",
+  "@type" : [ "http://purl.org/vocommons/voaf#Vocabulary" ],
+  "http://www.w3.org/ns/dcat#distribution" : [ {
+    "@id" : "_:genid4"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "http://www.w3.org/ns/dcat#downloadURL" : [ {
+    "@id" : "https://raw.githubusercontent.com/Alhakam/dot/master/Extension/cdo.ttl"
+  } ]
+}, {
+  "@id" : "http://creativecommons.org/ns#license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://pi.pauwel.be/voc/buildingelement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
+}, {
+  "@id" : "http://pi.pauwel.be/voc/distributionelement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
+}, {
+  "@id" : "http://pi.pauwel.be/voc/furniture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/creator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/issued",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespacePrefix",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocab/vann/preferredNamespaceUri",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocommons/voaf#Vocabulary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://purl.org/vocommons/voaf#generalizes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://schema.org/Product",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://schema.org/domainIncludes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://schema.org/rangeIncludes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://vocab.getty.edu/ontology#GuideTerm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#Concept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2006/vcard/ns#Individual",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2006/vcard/ns#Organization",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.w3.org/2006/vcard/ns#family-name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2006/vcard/ns#fn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2006/vcard/ns#given-name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2006/vcard/ns#hasOrganizationName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2006/vcard/ns#hasURL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2006/vcard/ns#organization-name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#distribution",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.w3.org/ns/dcat#downloadURL",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "https://mdcs.monumentenkennis.nl/damageatlas/ontology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
+}, {
+  "@id" : "https://raw.githubusercontent.com/Alhakam/dot/master/Extension/cdo.ttl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "https://w3id.org/bot#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
+}, {
+  "@id" : "https://w3id.org/bot#Building",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/bot#"
+  } ],
+  "https://w3id.org/con-tax#isRootOfTaxonomy" : [ {
+    "@id" : "https://w3id.org/con-tax/zones/aat-buildings"
+  }, {
+    "@id" : "https://w3id.org/con-tax/zones/et-buildings"
+  } ]
+}, {
+  "@id" : "https://w3id.org/bot#Element",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/bot#Site",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/bot#"
+  } ],
+  "https://w3id.org/con-tax#isRootOfTaxonomy" : [ {
+    "@id" : "https://w3id.org/con-tax/zones/aat-buildingSites"
+  } ]
+}, {
+  "@id" : "https://w3id.org/bot#Space",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/bot#"
+  } ],
+  "https://w3id.org/con-tax#isRootOfTaxonomy" : [ {
+    "@id" : "https://w3id.org/con-tax/zones/aat-spaces"
+  } ]
+}, {
+  "@id" : "https://w3id.org/bot#Storey",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/bot#"
+  } ],
+  "https://w3id.org/con-tax#isRootOfTaxonomy" : [ {
+    "@id" : "https://w3id.org/con-tax/zones/aat-storeys"
+  } ]
+}, {
+  "@id" : "https://w3id.org/bot#Zone",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/bot#"
+  } ]
+}, {
+  "@id" : "https://w3id.org/con-tax",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology", "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ],
+  "http://creativecommons.org/ns#license" : [ {
+    "@id" : "https://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@id" : "_:genid1"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "An ontology containing additional terminology for structuring and annotating RDFS/OWL taxonomies for describing constructions (components, materials, spatial zones, damages, construction tasks and properties). It also functions as an index for known taxonomies starting from root classes and properties."
+  } ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#date",
+    "@value" : "2020-11-29"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "ConTax ontology"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "contax"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "https://w3id.org/con-tax#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "- Version 0.0.1: initial version"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "0.0.1"
+  } ]
+}, {
+  "@id" : "https://w3id.org/con-tax#ConstructionComponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An object that forms, formed or has the potential to form a part of a construction. Use a more specific subclass from a dedicated taxonomy such as BEO/FURN/MEP based on IFC or AAT-ARCH/AAT-FURN/AAT-MEP based on the Getty AAT concepts related to constructions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/con-tax"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "construction component"
+  } ],
+  "https://w3id.org/con-tax#isRootOfTaxonomy" : [ {
+    "@id" : "http://pi.pauwel.be/voc/buildingelement"
+  }, {
+    "@id" : "http://pi.pauwel.be/voc/distributionelement"
+  }, {
+    "@id" : "http://pi.pauwel.be/voc/furniture"
+  }, {
+    "@id" : "https://w3id.org/con-tax/components/aat-arch"
+  }, {
+    "@id" : "https://w3id.org/con-tax/components/aat-furn"
+  }, {
+    "@id" : "https://w3id.org/con-tax/components/aat-mep"
+  } ]
+}, {
+  "@id" : "https://w3id.org/con-tax#ConstructionSubComponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A construction component that forms, formed or has the potential to form a part of another construction component. It can be distinguished from other types of construction components since they are, in normal situations, no individual components. An example are the steps and railings as sub components of a stairs component. Use a more specific subclass from a dedicated taxonomy such as BEO based on IFC or AAT-ARCH based on the Getty AAT concepts related to constructions."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/con-tax"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "construction sub component"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/con-tax#ConstructionComponent"
+  } ]
+}, {
+  "@id" : "https://w3id.org/con-tax#Material",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A material of which a construction component is made. It excludes subcomponents of larger construction components, e.g. a brick in a wall (see contax:ConstructionSubComponent)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/con-tax"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "building material"
+  } ],
+  "https://w3id.org/con-tax#isRootOfTaxonomy" : [ {
+    "@id" : "https://w3id.org/con-tax/aat-materials"
+  } ]
+}, {
+  "@id" : "https://w3id.org/con-tax#PropertyContext",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/con-tax"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "property context (grouping) "
+  } ]
+}, {
+  "@id" : "https://w3id.org/con-tax#containsConcept",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property to connect a gvp:GuideTerm instance to a class that is part of the main taxonomy hierarchy. The guide term represents a grouping of terms to provide alternative means for finding classes (object of this property) besides the main taxonomy hierarchy."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://vocab.getty.edu/ontology#GuideTerm"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/con-tax"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "contains concept"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ]
+}, {
+  "@id" : "https://w3id.org/con-tax#containsGuideTerm",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Property to connect a class that is based on a concept from the Getty AAT to a gvp:GuideTerm, i.e. an individual node that represents a grouping of terms to provide alternative means for finding classes besides the main taxonomy hierarchy. The guide term specializes a more general class from the taxonomy."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/con-tax"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "contains guide term "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://vocab.getty.edu/ontology#GuideTerm"
+  } ]
+}, {
+  "@id" : "https://w3id.org/con-tax#domainOrSubjectIncludes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An annotation property to connect a property definition to a class that is either in the domain of this property (instance property) or is a potential subject (or superclass of a potential subject) of this property (type property)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/con-tax"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "domain or subject includes"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ]
+}, {
+  "@id" : "https://w3id.org/con-tax#hasProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A relation to connect an object to the first intermediate node of a level 2 or 3 property when using approach 4 or 5 for assigning the property name."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/con-tax"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has property"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/opm#Property"
+  } ]
+}, {
+  "@id" : "https://w3id.org/con-tax#hasPropertyContext",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "https://w3id.org/opm#Property"
+  }, {
+    "@id" : "https://w3id.org/opm#PropertyState"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/con-tax"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "has property context (grouping)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/con-tax#PropertyContext"
+  } ]
+}, {
+  "@id" : "https://w3id.org/con-tax#isDerivedFromProperty",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/opm#Property"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/con-tax"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is derived from property "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/opm#Property"
+  } ]
+}, {
+  "@id" : "https://w3id.org/con-tax#isDerivedFromPropertyState",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/opm#PropertyState"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/con-tax"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "is derived from property state"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "https://w3id.org/opm#PropertyState"
+  } ]
+}, {
+  "@id" : "https://w3id.org/con-tax#isRootOfTaxonomy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://schema.org/domainIncludes" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#AnnotationProperty"
+  }, {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  }, {
+    "@id" : "http://www.w3.org/2002/07/owl#DatatypeProperty"
+  }, {
+    "@id" : "http://www.w3.org/2002/07/owl#ObjectProperty"
+  }, {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Annotation property to store references to the known (external) taxonomies for root classes, properties or SKOS concepts defined or mentioned in ConTax. The URI of each taxonomy is the object of this property."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/con-tax"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "root of taxonomy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://purl.org/vocommons/voaf#Vocabulary"
+  } ]
+}, {
+  "@id" : "https://w3id.org/con-tax#potentialInterventionType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An annotation property used in taxonomies of damage types to connect a damage type class (subclass of dot:ClassifiedDamage) to a reparation task (subclass of cto:RepairTask)."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/con-tax"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "potential intervention type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ]
+}, {
+  "@id" : "https://w3id.org/con-tax#potentialSubComponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An annotation property used in taxonomies of construction components to connect a construction component type such as a stairs that can consists of smaller sub components such as railings and steps."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/con-tax"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "potential sub component"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  } ]
+}, {
+  "@id" : "https://w3id.org/con-tax#propertyName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A relation to connect the first intermediate node of a level 2 or 3 property to its actual property name"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "https://w3id.org/opm#Property"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/con-tax"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "property name "
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ]
+}, {
+  "@id" : "https://w3id.org/con-tax#property_DP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A root property for taxonomies of datatype properties. Subproperties should be defined from this base property to specify the type of property. Via this root property and its counterpart for object properties (contax:property_OP), it is possible to retrieve all properties of construction components, spatial zones, damages, etc. excluding the linking relations that form the construction topology, damage topology, etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/con-tax"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "property (datatype) "
+  } ],
+  "https://w3id.org/con-tax#isRootOfTaxonomy" : [ {
+    "@id" : "https://w3id.org/con-tax/properties/bhp"
+  } ]
+}, {
+  "@id" : "https://w3id.org/con-tax#property_OP",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "A root property for taxonomies of object properties. Subproperties should be defined from this base property to specify the type of property. Via this root property and its counterpart for datatype properties (contax:property_DP), it is possible to retrieve all properties of construction components, spatial zones, damages, etc. excluding the linking relations that form the construction topology, damage topology, etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/con-tax"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "property (object) "
+  } ],
+  "https://w3id.org/con-tax#isRootOfTaxonomy" : [ {
+    "@id" : "https://w3id.org/con-tax/properties/bhp"
+  }, {
+    "@id" : "https://w3id.org/con-tax/properties/cp"
+  } ]
+}, {
+  "@id" : "https://w3id.org/con-tax#rangeOrObjectIncludes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ],
+  "http://schema.org/rangeIncludes" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Class"
+  }, {
+    "@id" : "http://www.w3.org/2004/02/skos/core#Concept"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "An annotation property to connect a property definition to a class or datatype that is either in the range of this property (instance property) or is a potential object (or superclass of a potential object) of this property (type property). It can also refer to a skos:Concept node that represents a node in a SKOS taxonomy; this node and all its descendants (skos:narrower or inverse skos:broader) can be used as an object of the property (instance or type property). In the case of properties level 2 or 3, this property refers to the range or object for the generic schema:value property of the entire property pattern."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/con-tax"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "range or object includes"
+  } ]
+}, {
+  "@id" : "https://w3id.org/con-tax/aat-materials",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
+}, {
+  "@id" : "https://w3id.org/con-tax/components/aat-arch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
+}, {
+  "@id" : "https://w3id.org/con-tax/components/aat-furn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
+}, {
+  "@id" : "https://w3id.org/con-tax/components/aat-mep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
+}, {
+  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
+}, {
+  "@id" : "https://w3id.org/con-tax/properties/bhp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
+}, {
+  "@id" : "https://w3id.org/con-tax/properties/cp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
+}, {
+  "@id" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
+}, {
+  "@id" : "https://w3id.org/con-tax/zones/aat-buildingSites",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
+}, {
+  "@id" : "https://w3id.org/con-tax/zones/aat-buildings",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
+}, {
+  "@id" : "https://w3id.org/con-tax/zones/aat-spaces",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
+}, {
+  "@id" : "https://w3id.org/con-tax/zones/aat-storeys",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
+}, {
+  "@id" : "https://w3id.org/con-tax/zones/et-buildings",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
+}, {
+  "@id" : "https://w3id.org/cto",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
+}, {
+  "@id" : "https://w3id.org/cto#InspectionTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/cto"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cto#InstallmentTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/cto"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cto#ModificationTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/cto"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cto#RemovalTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/cto"
+  } ]
+}, {
+  "@id" : "https://w3id.org/cto#RepairTask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/cto"
+  } ],
+  "https://w3id.org/con-tax#isRootOfTaxonomy" : [ {
+    "@id" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dot#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
+}, {
+  "@id" : "https://w3id.org/dot#ClassifiedDamage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/dot#"
+  } ],
+  "https://w3id.org/con-tax#isRootOfTaxonomy" : [ {
+    "@id" : "https://mdcs.monumentenkennis.nl/damageatlas/ontology"
+  }, {
+    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen"
+  }, {
+    "@id" : "_:genid3"
+  } ]
+}, {
+  "@id" : "https://w3id.org/dot#Damage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/fog",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
+}, {
+  "@id" : "https://w3id.org/omg",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
+}, {
+  "@id" : "https://w3id.org/omg#hasComplexGeometryDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/omg"
+  } ],
+  "https://w3id.org/con-tax#isRootOfTaxonomy" : [ {
+    "@id" : "https://w3id.org/fog"
+  } ]
+}, {
+  "@id" : "https://w3id.org/omg#hasReferencedGeometryId",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/omg"
+  } ],
+  "https://w3id.org/con-tax#isRootOfTaxonomy" : [ {
+    "@id" : "https://w3id.org/fog"
+  } ]
+}, {
+  "@id" : "https://w3id.org/omg#hasSimpleGeometryDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "https://w3id.org/omg"
+  } ],
+  "https://w3id.org/con-tax#isRootOfTaxonomy" : [ {
+    "@id" : "https://w3id.org/fog"
+  } ]
+}, {
+  "@id" : "https://w3id.org/opm#Property",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "https://w3id.org/opm#PropertyState",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+} ]
