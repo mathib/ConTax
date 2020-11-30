@@ -620,7 +620,7 @@
 
     <owl:Class rdf:about="https://w3id.org/cto#RepairTask">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/cto"/>
-        <isRootOfTaxonomy rdf:resource="https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen"/>
+        <isRootOfTaxonomy rdf:resource="https://w3id.org/con-tax/tasks/mwv"/>
     </owl:Class>
     
 
@@ -631,7 +631,7 @@
     <owl:Class rdf:about="https://w3id.org/dot#ClassifiedDamage">
         <rdfs:isDefinedBy rdf:resource="https://w3id.org/dot#"/>
         <isRootOfTaxonomy rdf:resource="https://mdcs.monumentenkennis.nl/damageatlas/ontology"/>
-        <isRootOfTaxonomy rdf:resource="https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen"/>
+        <isRootOfTaxonomy rdf:resource="https://w3id.org/con-tax/damages/mwv"/>
         <isRootOfTaxonomy rdf:nodeID="genid3"/>
     </owl:Class>
     <rdf:Description rdf:nodeID="genid3">
@@ -808,10 +808,10 @@
     
 
 
-    <!-- https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen -->
+    <!-- https://w3id.org/con-tax/damages/mwv -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen">
+    <owl:NamedIndividual rdf:about="https://w3id.org/con-tax/damages/mwv">
         <rdf:type rdf:resource="http://purl.org/vocommons/voaf#Vocabulary"/>
     </owl:NamedIndividual>
     
@@ -835,10 +835,10 @@
     
 
 
-    <!-- https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen -->
+    <!-- https://w3id.org/con-tax/tasks/mwv -->
 
 
-    <owl:NamedIndividual rdf:about="https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen">
+    <owl:NamedIndividual rdf:about="https://w3id.org/con-tax/tasks/mwv">
         <rdf:type rdf:resource="http://purl.org/vocommons/voaf#Vocabulary"/>
     </owl:NamedIndividual>
     

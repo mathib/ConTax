@@ -25,8 +25,8 @@
 @prefix gvp: <http://vocab.getty.edu/ontology#> .
 @prefix mdcs: <https://mdcs.monumentenkennis.nl/damageatlas/ontology#> .
 @prefix mep: <http://pi.pauwel.be/voc/distributionelement#> .
-@prefix mw-d: <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen#> .
-@prefix mw-t: <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen#> .
+@prefix mwv-d: <https://w3id.org/con-tax/damages/mwv#> .
+@prefix mwv-t: <https://w3id.org/con-tax/tasks/mwv#> .
 @prefix omg: <https://w3id.org/omg#> .
 @prefix opm: <https://w3id.org/opm#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
@@ -294,7 +294,7 @@ contax:rangeOrObjectIncludes
 <https://w3id.org/con-tax/components/aat-mep>
   rdf:type voaf:Vocabulary ;
 .
-<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen>
+<https://w3id.org/con-tax/damages/mwv>
   rdf:type voaf:Vocabulary ;
 .
 <https://w3id.org/con-tax/properties/bhp>
@@ -303,7 +303,7 @@ contax:rangeOrObjectIncludes
 <https://w3id.org/con-tax/properties/cp>
   rdf:type voaf:Vocabulary ;
 .
-<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen>
+<https://w3id.org/con-tax/tasks/mwv>
   rdf:type voaf:Vocabulary ;
 .
 <https://w3id.org/con-tax/zones/aat-buildingSites>
@@ -343,7 +343,7 @@ cto:RemovalTask
 cto:RepairTask
   rdf:type owl:Class ;
   rdfs:isDefinedBy <https://w3id.org/cto> ;
-  contax:isRootOfTaxonomy <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> ;
+  contax:isRootOfTaxonomy <https://w3id.org/con-tax/tasks/mwv> ;
 .
 dot:
   rdf:type voaf:Vocabulary ;
@@ -352,7 +352,7 @@ dot:ClassifiedDamage
   rdf:type owl:Class ;
   rdfs:isDefinedBy dot: ;
   contax:isRootOfTaxonomy <https://mdcs.monumentenkennis.nl/damageatlas/ontology> ;
-  contax:isRootOfTaxonomy <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen> ;
+  contax:isRootOfTaxonomy <https://w3id.org/con-tax/damages/mwv> ;
   contax:isRootOfTaxonomy [
       rdf:type voaf:Vocabulary ;
       dcat:distribution [

@@ -568,7 +568,7 @@
   "@id" : "https://w3id.org/con-tax/components/aat-mep",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
 }, {
-  "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen",
+  "@id" : "https://w3id.org/con-tax/damages/mwv",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
 }, {
   "@id" : "https://w3id.org/con-tax/properties/bhp",
@@ -577,7 +577,7 @@
   "@id" : "https://w3id.org/con-tax/properties/cp",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
 }, {
-  "@id" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen",
+  "@id" : "https://w3id.org/con-tax/tasks/mwv",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
 }, {
   "@id" : "https://w3id.org/con-tax/zones/aat-buildingSites",
@@ -628,7 +628,7 @@
     "@id" : "https://w3id.org/cto"
   } ],
   "https://w3id.org/con-tax#isRootOfTaxonomy" : [ {
-    "@id" : "https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen"
+    "@id" : "https://w3id.org/con-tax/tasks/mwv"
   } ]
 }, {
   "@id" : "https://w3id.org/dot#",
@@ -642,7 +642,7 @@
   "https://w3id.org/con-tax#isRootOfTaxonomy" : [ {
     "@id" : "https://mdcs.monumentenkennis.nl/damageatlas/ontology"
   }, {
-    "@id" : "https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen"
+    "@id" : "https://w3id.org/con-tax/damages/mwv"
   }, {
     "@id" : "_:genid3"
   } ]

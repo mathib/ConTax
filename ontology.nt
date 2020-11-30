@@ -333,13 +333,13 @@ _:genid1 <http://www.w3.org/2006/vcard/ns#hasURL> <https://www.researchgate.net/
 # https://w3id.org/cto#RepairTask
 <https://w3id.org/cto#RepairTask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/cto#RepairTask> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/cto> .
-<https://w3id.org/cto#RepairTask> <https://w3id.org/con-tax#isRootOfTaxonomy> <https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> .
+<https://w3id.org/cto#RepairTask> <https://w3id.org/con-tax#isRootOfTaxonomy> <https://w3id.org/con-tax/tasks/mwv> .
 # 
 # https://w3id.org/dot#ClassifiedDamage
 <https://w3id.org/dot#ClassifiedDamage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://w3id.org/dot#ClassifiedDamage> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <https://w3id.org/dot#> .
 <https://w3id.org/dot#ClassifiedDamage> <https://w3id.org/con-tax#isRootOfTaxonomy> <https://mdcs.monumentenkennis.nl/damageatlas/ontology> .
-<https://w3id.org/dot#ClassifiedDamage> <https://w3id.org/con-tax#isRootOfTaxonomy> <https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen> .
+<https://w3id.org/dot#ClassifiedDamage> <https://w3id.org/con-tax#isRootOfTaxonomy> <https://w3id.org/con-tax/damages/mwv> .
 <https://w3id.org/dot#ClassifiedDamage> <https://w3id.org/con-tax#isRootOfTaxonomy> _:genid3 .
 _:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
 _:genid3 <http://www.w3.org/ns/dcat#distribution> _:genid4 .
@@ -420,9 +420,9 @@ _:genid4 <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.
 <https://w3id.org/con-tax/components/aat-mep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/con-tax/components/aat-mep> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
 # 
-# https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen
-<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/con-tax/damages/monumentenwacht-vlaanderen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+# https://w3id.org/con-tax/damages/mwv
+<https://w3id.org/con-tax/damages/mwv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/con-tax/damages/mwv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
 # 
 # https://w3id.org/con-tax/properties/bhp
 <https://w3id.org/con-tax/properties/bhp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -432,9 +432,9 @@ _:genid4 <http://www.w3.org/ns/dcat#downloadURL> <https://raw.githubusercontent.
 <https://w3id.org/con-tax/properties/cp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <https://w3id.org/con-tax/properties/cp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
 # 
-# https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen
-<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<https://w3id.org/con-tax/tasks/monumentenwacht-vlaanderen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
+# https://w3id.org/con-tax/tasks/mwv
+<https://w3id.org/con-tax/tasks/mwv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://w3id.org/con-tax/tasks/mwv> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
 # 
 # https://w3id.org/con-tax/zones/aat-buildingSites
 <https://w3id.org/con-tax/zones/aat-buildingSites> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
