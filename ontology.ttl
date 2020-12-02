@@ -44,11 +44,36 @@
 pi:buildingelement
   rdf:type voaf:Vocabulary ;
 .
+beo:BuildingElement
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy pi:buildingelement ;
+  rdfs:subClassOf contax:ConstructionComponent ;
+.
+beo:ElementComponent
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy pi:buildingelement ;
+  rdfs:subClassOf contax:ConstructionSubComponent ;
+.
+beo:TransportElement
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy pi:buildingelement ;
+  rdfs:subClassOf contax:ConstructionComponent ;
+.
 pi:distributionelement
   rdf:type voaf:Vocabulary ;
 .
+mep:DistributionElement
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy pi:distributionelement ;
+  rdfs:subClassOf contax:ConstructionComponent ;
+.
 pi:furniture
   rdf:type voaf:Vocabulary ;
+.
+furn:Furniture
+  rdf:type owl:Class ;
+  rdfs:isDefinedBy pi:furniture ;
+  rdfs:subClassOf contax:ConstructionComponent ;
 .
 voaf:Vocabulary
   rdf:type owl:Class ;

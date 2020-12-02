@@ -9,6 +9,12 @@
          </a>
       </li>
       <li>
+         <a href="#http://pi.pauwel.be/voc/buildingelement#BuildingElement"
+            title="http://pi.pauwel.be/voc/buildingelement#BuildingElement">
+            <span>building element</span>
+         </a>
+      </li>
+      <li>
          <a href="#Material" title="https://w3id.org/con-tax#Material">building material</a>
       </li>
       <li>
@@ -22,6 +28,23 @@
       <li>
          <a href="#ConstructionSubComponent"
             title="https://w3id.org/con-tax#ConstructionSubComponent">construction sub component</a>
+      </li>
+      <li>
+         <a href="#http://pi.pauwel.be/voc/distributionelement#DistributionElement"
+            title="http://pi.pauwel.be/voc/distributionelement#DistributionElement">
+            <span>distribution element</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://pi.pauwel.be/voc/buildingelement#ElementComponent"
+            title="http://pi.pauwel.be/voc/buildingelement#ElementComponent">
+            <span>element component</span>
+         </a>
+      </li>
+      <li>
+         <a href="#http://pi.pauwel.be/voc/furniture#Furniture" title="http://pi.pauwel.be/voc/furniture#Furniture">
+            <span>furniture</span>
+         </a>
       </li>
       <li>
          <a href="#https://w3id.org/cto#InspectionTask" title="https://w3id.org/cto#InspectionTask">
@@ -67,12 +90,17 @@
          </a>
       </li>
       <li>
+         <a href="#http://pi.pauwel.be/voc/buildingelement#TransportElement"
+            title="http://pi.pauwel.be/voc/buildingelement#TransportElement">
+            <span>transport element</span>
+         </a>
+      </li>
+      <li>
          <a href="#https://w3id.org/bot#Zone" title="https://w3id.org/bot#Zone">
             <span>zone</span>
          </a>
       </li>
    </ul>
-   <!-- content -->
    <div class="entity" id="https://w3id.org/bot#Building">
       <h3>building<sup class="type-c" title="class">c</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
@@ -86,19 +114,27 @@
             <a href="https://w3id.org/bot#">https://w3id.org/bot#</a>
          </dd>
       </dl>
-      <div class="description">
-         <dl>
-            <dt>is root of taxonomy</dt>
-            <dd>
-			   <a href="https://w3id.org/con-tax/zones/aat-buildings" title="https://w3id.org/con-tax/zones/aat-buildings">AAT-BUILDINGS</a>
-			   <sup class="type-ni" title="named individual">ni</sup>
-            </dd>
-            <dd>
-			   <a href="https://w3id.org/con-tax/zones/et-buildings" title="https://w3id.org/con-tax/zones/et-buildings">ET-BUILDINGS</a>
-			   <sup class="type-ni" title="named individual">ni</sup>
-            </dd>
-         </dl>
-      </div>
+   </div>
+   <div class="entity" id="http://pi.pauwel.be/voc/buildingelement#BuildingElement">
+      <h3>building element<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://pi.pauwel.be/voc/buildingelement#BuildingElement</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://pi.pauwel.be/voc/buildingelement">http://pi.pauwel.be/voc/buildingelement</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#ConstructionComponent" title="https://w3id.org/con-tax#ConstructionComponent">construction component</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
    </div>
    <div class="entity" id="Material">
       <h3>building material<sup class="type-c" title="class">c</sup>
@@ -176,8 +212,15 @@
       <dl class="description">
          <dt>has sub-classes</dt>
          <dd>
-            <a href="#ConstructionSubComponent"
+            <a href="#http://pi.pauwel.be/voc/buildingelement#BuildingElement"
+               title="http://pi.pauwel.be/voc/buildingelement#BuildingElement">building element</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#ConstructionSubComponent"
                title="https://w3id.org/con-tax#ConstructionSubComponent">construction sub component</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#http://pi.pauwel.be/voc/distributionelement#DistributionElement"
+               title="http://pi.pauwel.be/voc/distributionelement#DistributionElement">distribution element</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#http://pi.pauwel.be/voc/furniture#Furniture" title="http://pi.pauwel.be/voc/furniture#Furniture">furniture</a>
+            <sup class="type-c" title="class">c</sup>, <a href="#http://pi.pauwel.be/voc/buildingelement#TransportElement"
+               title="http://pi.pauwel.be/voc/buildingelement#TransportElement">transport element</a>
             <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
@@ -225,6 +268,76 @@
          <dt>Is defined by</dt>
          <dd>
             <a href="https://w3id.org/con-tax">https://w3id.org/con-tax</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#ConstructionComponent" title="https://w3id.org/con-tax#ConstructionComponent">construction component</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+         <dt>has sub-classes</dt>
+         <dd>
+            <a href="#http://pi.pauwel.be/voc/buildingelement#ElementComponent"
+               title="http://pi.pauwel.be/voc/buildingelement#ElementComponent">element component</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://pi.pauwel.be/voc/distributionelement#DistributionElement">
+      <h3>distribution element<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://pi.pauwel.be/voc/distributionelement#DistributionElement</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://pi.pauwel.be/voc/distributionelement">http://pi.pauwel.be/voc/distributionelement</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#ConstructionComponent" title="https://w3id.org/con-tax#ConstructionComponent">construction component</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://pi.pauwel.be/voc/buildingelement#ElementComponent">
+      <h3>element component<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://pi.pauwel.be/voc/buildingelement#ElementComponent</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://pi.pauwel.be/voc/buildingelement">http://pi.pauwel.be/voc/buildingelement</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#ConstructionSubComponent"
+               title="https://w3id.org/con-tax#ConstructionSubComponent">construction sub component</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="http://pi.pauwel.be/voc/furniture#Furniture">
+      <h3>furniture<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://pi.pauwel.be/voc/furniture#Furniture</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://pi.pauwel.be/voc/furniture">http://pi.pauwel.be/voc/furniture</a>
          </dd>
       </dl>
       <dl class="description">
@@ -424,6 +537,27 @@
             </dd>
          </dl>
       </div>
+   </div>
+   <div class="entity" id="http://pi.pauwel.be/voc/buildingelement#TransportElement">
+      <h3>transport element<sup class="type-c" title="class">c</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#classes">Class ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://pi.pauwel.be/voc/buildingelement#TransportElement</p>
+      <dl class="definedBy">
+         <dt>Is defined by</dt>
+         <dd>
+            <a href="http://pi.pauwel.be/voc/buildingelement">http://pi.pauwel.be/voc/buildingelement</a>
+         </dd>
+      </dl>
+      <dl class="description">
+         <dt>has super-classes</dt>
+         <dd>
+            <a href="#ConstructionComponent" title="https://w3id.org/con-tax#ConstructionComponent">construction component</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
    </div>
    <div class="entity" id="https://w3id.org/bot#Zone">
       <h3>zone<sup class="type-c" title="class">c</sup>
@@ -701,7 +835,7 @@
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/omg#hasReferencedGeometryId</p>
-	  <dl class="definedBy">
+      <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
             <a href="https://w3id.org/omg">https://w3id.org/omg</a>
@@ -724,7 +858,7 @@
       </h3>
       <p>
          <strong>IRI:</strong> https://w3id.org/omg#hasSimpleGeometryDescription</p>
-	  <dl class="definedBy">
+      <dl class="definedBy">
          <dt>Is defined by</dt>
          <dd>
             <a href="https://w3id.org/omg">https://w3id.org/omg</a>
@@ -766,7 +900,8 @@
 		 </dl>
 		</div>
    </div>
-</div><div id="annotationproperties">
+</div>
+<div id="annotationproperties">
    <h3 id="annotationproperties" class="list">Annotation Properties</h3>
    <ul class="hlist">
       <li>
@@ -1018,13 +1153,13 @@
       </div>
    </div>
 </div>
-
 <div id="legend">
 <h2>Legend <span class="backlink"> back to <a href="#toc">ToC</a></span></h2>
 <div   class="entity">
 <sup class="type-c" title="Classes">c</sup>: Classes <br/>
 <sup class="type-op" title="Object Properties">op</sup>: Object Properties <br/>
 <sup class="type-dp" title="Data Properties">dp</sup>: Data Properties <br/>
+<sup class="type-ap" title="Annotation Properties">ap</sup>: Annotation Properties <br/>
 <sup class="type-ni" title="Named Individuals">ni</sup>: Named Individuals
 </div>
 </div>

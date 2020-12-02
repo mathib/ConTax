@@ -239,6 +239,31 @@ _:genid1 <http://www.w3.org/2006/vcard/ns#hasURL> <https://www.researchgate.net/
 # #################################################################
 # 
 # 
+# http://pi.pauwel.be/voc/buildingelement#BuildingElement
+<http://pi.pauwel.be/voc/buildingelement#BuildingElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://pi.pauwel.be/voc/buildingelement#BuildingElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax#ConstructionComponent> .
+<http://pi.pauwel.be/voc/buildingelement#BuildingElement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://pi.pauwel.be/voc/buildingelement> .
+# 
+# http://pi.pauwel.be/voc/buildingelement#ElementComponent
+<http://pi.pauwel.be/voc/buildingelement#ElementComponent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://pi.pauwel.be/voc/buildingelement#ElementComponent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax#ConstructionSubComponent> .
+<http://pi.pauwel.be/voc/buildingelement#ElementComponent> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://pi.pauwel.be/voc/buildingelement> .
+# 
+# http://pi.pauwel.be/voc/buildingelement#TransportElement
+<http://pi.pauwel.be/voc/buildingelement#TransportElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://pi.pauwel.be/voc/buildingelement#TransportElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax#ConstructionComponent> .
+<http://pi.pauwel.be/voc/buildingelement#TransportElement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://pi.pauwel.be/voc/buildingelement> .
+# 
+# http://pi.pauwel.be/voc/distributionelement#DistributionElement
+<http://pi.pauwel.be/voc/distributionelement#DistributionElement> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://pi.pauwel.be/voc/distributionelement#DistributionElement> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax#ConstructionComponent> .
+<http://pi.pauwel.be/voc/distributionelement#DistributionElement> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://pi.pauwel.be/voc/distributionelement> .
+# 
+# http://pi.pauwel.be/voc/furniture#Furniture
+<http://pi.pauwel.be/voc/furniture#Furniture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://pi.pauwel.be/voc/furniture#Furniture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://w3id.org/con-tax#ConstructionComponent> .
+<http://pi.pauwel.be/voc/furniture#Furniture> <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://pi.pauwel.be/voc/furniture> .
+# 
 # http://purl.org/vocommons/voaf#Vocabulary
 <http://purl.org/vocommons/voaf#Vocabulary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 # 

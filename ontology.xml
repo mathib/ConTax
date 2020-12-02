@@ -429,6 +429,56 @@
     
 
 
+    <!-- http://pi.pauwel.be/voc/buildingelement#BuildingElement -->
+
+
+    <owl:Class rdf:about="http://pi.pauwel.be/voc/buildingelement#BuildingElement">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/con-tax#ConstructionComponent"/>
+        <rdfs:isDefinedBy rdf:resource="http://pi.pauwel.be/voc/buildingelement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://pi.pauwel.be/voc/buildingelement#ElementComponent -->
+
+
+    <owl:Class rdf:about="http://pi.pauwel.be/voc/buildingelement#ElementComponent">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/con-tax#ConstructionSubComponent"/>
+        <rdfs:isDefinedBy rdf:resource="http://pi.pauwel.be/voc/buildingelement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://pi.pauwel.be/voc/buildingelement#TransportElement -->
+
+
+    <owl:Class rdf:about="http://pi.pauwel.be/voc/buildingelement#TransportElement">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/con-tax#ConstructionComponent"/>
+        <rdfs:isDefinedBy rdf:resource="http://pi.pauwel.be/voc/buildingelement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://pi.pauwel.be/voc/distributionelement#DistributionElement -->
+
+
+    <owl:Class rdf:about="http://pi.pauwel.be/voc/distributionelement#DistributionElement">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/con-tax#ConstructionComponent"/>
+        <rdfs:isDefinedBy rdf:resource="http://pi.pauwel.be/voc/distributionelement"/>
+    </owl:Class>
+    
+
+
+    <!-- http://pi.pauwel.be/voc/furniture#Furniture -->
+
+
+    <owl:Class rdf:about="http://pi.pauwel.be/voc/furniture#Furniture">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/con-tax#ConstructionComponent"/>
+        <rdfs:isDefinedBy rdf:resource="http://pi.pauwel.be/voc/furniture"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/vocommons/voaf#Vocabulary -->
 
 

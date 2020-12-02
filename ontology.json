@@ -47,11 +47,56 @@
   "@id" : "http://pi.pauwel.be/voc/buildingelement",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
 }, {
+  "@id" : "http://pi.pauwel.be/voc/buildingelement#BuildingElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://pi.pauwel.be/voc/buildingelement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/con-tax#ConstructionComponent"
+  } ]
+}, {
+  "@id" : "http://pi.pauwel.be/voc/buildingelement#ElementComponent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://pi.pauwel.be/voc/buildingelement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/con-tax#ConstructionSubComponent"
+  } ]
+}, {
+  "@id" : "http://pi.pauwel.be/voc/buildingelement#TransportElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://pi.pauwel.be/voc/buildingelement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/con-tax#ConstructionComponent"
+  } ]
+}, {
   "@id" : "http://pi.pauwel.be/voc/distributionelement",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
 }, {
+  "@id" : "http://pi.pauwel.be/voc/distributionelement#DistributionElement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://pi.pauwel.be/voc/distributionelement"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/con-tax#ConstructionComponent"
+  } ]
+}, {
   "@id" : "http://pi.pauwel.be/voc/furniture",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
+}, {
+  "@id" : "http://pi.pauwel.be/voc/furniture#Furniture",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@id" : "http://pi.pauwel.be/voc/furniture"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "https://w3id.org/con-tax#ConstructionComponent"
+  } ]
 }, {
   "@id" : "http://purl.org/dc/terms/creator",
   "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
